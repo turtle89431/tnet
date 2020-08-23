@@ -21,7 +21,7 @@ ZT_BASE_URL_HTTPS='https://download.zerotier.com/'
 ZT_BASE_URL_HTTP='http://download.zerotier.com/'
 
 echo
-echo '*** ZeroTier One Quick Install for Unix-like Systems'
+echo '*** Turtle Net Quick Install for Unix-like Systems'
 echo
 echo '*** Tested distributions and architectures:'
 echo '***   MacOS (10.7+) on x86_64 (just installs ZeroTier One.pkg)'
@@ -31,7 +31,7 @@ echo '***   Fedora (16+) on x86_64 and x86'
 echo '***   SuSE (12+) on x86_64 and x86'
 echo '***   Mint (18+) on x86_64, x86, arm, and arm64'
 echo
-echo '*** Please report problems to contact@zerotier.com and we will try to fix.'
+echo '*** Please report problems to Seth Harvey.'
 echo
 
 SUDO=
@@ -69,7 +69,7 @@ fi
 
 # Detect already-installed on Linux
 if [ -f /usr/sbin/zerotier-one ]; then
-	echo '*** ZeroTier One appears to already be installed.'
+	echo '*** Turtle Net appears to already be installed.'
 	exit 0
 fi
 
